@@ -37,7 +37,7 @@ public class Exercise2 {
 	    int b = input.nextInt();
 	    int c = (a/b);
 	    System.out.println();
-	    System.out.println("The division of a and b is:" + c + " or " + (a/b));
+	    System.out.println("The division of a and b is:" + c );
 	 }
 	public static void Question3() {
 	Scanner input = new Scanner(System.in);
@@ -106,15 +106,14 @@ public class Exercise2 {
 		
 	}
 
-		public static void Question9() {
-			Scanner input = new Scanner(System.in);
-	        System.out.print("Input the first number : ");
-	        int a = input.nextInt();  
-			System.out.print("Input the second number: ");
-			int b = input.nextInt(); 
-			System.out.print("Input the third number : ");
-	        int c = input.nextInt(); 
-	        System.out.println((Math.abs(a - b) >= 20 || Math.abs(b - c) >= 20 || Math.abs(c - a) >= 20));
+	public static void Question9() {
+		Scanner input = new Scanner(System.in);
+	    System.out.print("Input the first number : ");
+	    int a = input.nextInt();  
+	    System.out.print("Input the second number: ");
+	    int b = input.nextInt(); 
+		System.out.print("Input the third number : ");
+        int c = input.nextInt(); 	        System.out.println((Math.abs(a - b) >= 20 || Math.abs(b - c) >= 20 || Math.abs(c - a) >= 20));
 		}
 		
 	public static void Question10() {
