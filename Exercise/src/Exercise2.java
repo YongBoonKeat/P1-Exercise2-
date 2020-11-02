@@ -25,9 +25,10 @@ public class Exercise2 {
 		System.out.print("Enter your last name: ");
 		String lname = input.next();
 		String fullname = fname+lname;
-		System.out.println("Hello \n" + fname + " "+ lname + " or " + fullname);
+		System.out.println("Hello \n" + fname + " "+ lname + " or " + fullname + "\n");
 		 
 	}
+	
 	public static void Question2() {
 		Scanner input = new Scanner(System.in);
 		
@@ -37,8 +38,9 @@ public class Exercise2 {
 	    int b = input.nextInt();
 	    int c = (a/b);
 	    System.out.println();
-	    System.out.println("The division of a and b is:" + c );
+	    System.out.println("The division of a and b is:" + c + "\n");
 	 }
+	
 	public static void Question3() {
 	Scanner input = new Scanner(System.in);
 	   
@@ -52,7 +54,7 @@ public class Exercise2 {
 	  System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
 	  System.out.println(num1 + " x " + num2 + " = " + (num1 * num2));
 	  System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
-	  System.out.println(num1 + " mod " + num2 + " = " + (num1 % num2));
+	  System.out.println(num1 + " mod " + num2 + " = " + (num1 % num2) + "\n");
 	 }
 	
 	public static void Question4() {
@@ -61,7 +63,7 @@ public class Exercise2 {
 		int num1 = input.nextInt();
 		   
 		for (int i=0; i< 10; i++) {
-		System.out.println(num1 + " x " + (i+1) + " = " + (num1 * (i+1)));
+		System.out.println(num1 + " x " + (i+1) + " = " + (num1 * (i+1)) + "\n");
 	}
 	}
 	public static void Question5() {
@@ -78,7 +80,7 @@ public class Exercise2 {
 		System.out.print("Enter fifth number: ");
 		int num5 = input.nextInt();
 		   
-		System.out.println("Average of five numbers is: " + (num1 + num2 + num3 + num4 + num5) / 5);
+		System.out.println("Average of five numbers is: " + (num1 + num2 + num3 + num4 + num5) / 5 + "\n");
 		
 	}
 	public static void Question6() {
@@ -86,7 +88,7 @@ public class Exercise2 {
 		System.out.println("Input the radius of the circle: ");
 		double radius = input.nextDouble();
 		System.out.println("Perimeter is = " + (2 * radius * Math.PI));
-		System.out.println("Area is = " + (Math.PI * radius * radius));
+		System.out.println("Area is = " + (Math.PI * radius * radius) + "\n");
 
 	}
 	public static void Question7() {
@@ -113,7 +115,8 @@ public class Exercise2 {
 	    System.out.print("Input the second number: ");
 	    int b = input.nextInt(); 
 		System.out.print("Input the third number : ");
-        int c = input.nextInt(); 	        System.out.println((Math.abs(a - b) >= 20 || Math.abs(b - c) >= 20 || Math.abs(c - a) >= 20));
+        int c = input.nextInt(); 	        
+        System.out.println((Math.abs(a - b) >= 20 || Math.abs(b - c) >= 20 || Math.abs(c - a) >= 20));
 		}
 		
 	public static void Question10() {
